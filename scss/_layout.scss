@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.controls {
+  flex: 0.25;
+  height: 100%;
+  background-color: $secondary;
+}
+
+.graph-outer-container {
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  background-color: $primary;
+}
+
+#graphContainer {
+  position: relative;
+  background-color: $tertiary;
+}
